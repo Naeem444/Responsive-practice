@@ -39,9 +39,9 @@ body {
   padding: 10px 30px;
 
   border-radius: 22px;
-  position: relative;
 
-  top: 5%;
+  display: inline-block;
+  margin-top: 25px;
 
   background: linear-gradient(to right, #00cc99 0%, #99ff99 100%);
 }
