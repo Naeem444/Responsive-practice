@@ -2,8 +2,9 @@ body {
   background-color: white;
 }
 
-.init-section {
+.flexible-container {
   display: flex;
+  margin-bottom: 150px;
 }
 
 .init-left-half {
@@ -22,7 +23,7 @@ body {
 .main_image {
   height: 450px;
   width: 600px;
-  margin-top: 8%;
+  margin-top: 15%;
 }
 .init-half-paragraph {
   width: 90%;
@@ -59,4 +60,43 @@ body {
   top: -70px;
   left: -70px;
   opacity: 0.5;
+}
+
+.boxes-container {
+  display: flex;
+}
+
+.boxes {
+  width: 50%;
+
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 150px;
+  box-shadow: 2px 5px 30px gray;
+  border-radius: 15px;
+
+  padding: 40px 30px;
+
+  background-color: whitesmoke;
+
+  border-left: 7px solid #339966;
+  /* This is way to use gradient */
+  /* border-image: linear-gradient(to bottom, #009933 0%, #99ff66 100%); */
+  /* border-image-slice: 1; */
+}
+
+.boxes h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  font-weight: 550;
+}
+.boxes p {
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-size: 2em; */
+  font-weight: 500;
+}
+
+.boxes .box-image {
+  height: 150px;
+  width: 150px;
 }
