@@ -8,26 +8,27 @@
   margin-left: 5%;
 
   z-index: 1;
-
 }
-#logo-part-2{
-    margin-left: 10px;
-    background: linear-gradient(to right, #00cc99 0%, #99ff99 100%);
-    color: black;
-    
+
+#logo-part-2 {
+  margin-left: 10px;
+  background: linear-gradient(to right, #00cc99 0%, #99ff99 100%);
+  color: black;
 }
-#logo-underline{
-    width: 90px;
-    /* border: 2px solid ; */
-    position: absolute;
 
-    margin-top: 5.85%;
-    margin-left: 5%;
+#logo-underline {
+  width: 90px;
+  /* border: 2px solid ; */
+  position: absolute;
 
-    padding: 2px  ;
+  margin-top: 5.85%;
+  margin-left: 5%;
 
-    background: linear-gradient(to right, #00cc99 0%, #99ff99 100%);
+  padding: 2px;
+
+  background: linear-gradient(to right, #00cc99 0%, #99ff99 100%);
 }
+
 nav > ul {
   display: flex;
   position: fixed;
@@ -37,13 +38,16 @@ nav > ul {
 
   background-color: #f2f2f2;
   border-radius: 22px;
-  padding: 5px 20px;
+
+  padding: 0;
+
+  box-shadow: 1px 1px 10px gray;
 }
 
 nav ul li {
   list-style: none;
-
-  padding: 5px 20px;
+  /* This padding and hover padding must be same to have that sliding effect while hover  */
+  padding: 8px 30px;
 }
 
 nav ul li a {
@@ -57,7 +61,7 @@ nav ul li a {
 
 nav ul li:hover {
   background: linear-gradient(to right, #00cc99 0%, #99ff99 100%);
-  padding: 5px 20px;
+  padding: 8px 30px;
   border-radius: 22px;
 }
 
