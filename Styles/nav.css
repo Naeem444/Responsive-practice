@@ -47,7 +47,7 @@ nav > ul {
 nav ul li {
   list-style: none;
   /* This padding and hover padding must be same to have that sliding effect while hover  */
-  padding: 8px 30px;
+  padding: 8px 26px;
 }
 
 nav ul li a {
@@ -61,7 +61,7 @@ nav ul li a {
 
 nav ul li:hover {
   background: linear-gradient(to right, #00cc99 0%, #99ff99 100%);
-  padding: 8px 30px;
+  padding: 8px 26px;
   border-radius: 22px;
 }
 
