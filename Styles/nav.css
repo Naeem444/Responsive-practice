@@ -1,11 +1,32 @@
 /* this > means immediate childs of nav ; so it wont other ul nested in lists */
-nav #text-logo {
+#text-logo {
   display: flex;
   position: absolute;
   font-family: "Pacifico", cursive;
   font-size: 2em;
 
   margin-left: 5%;
+
+  z-index: 1;
+
+}
+#logo-part-2{
+    margin-left: 10px;
+    background: linear-gradient(to right, #00cc99 0%, #99ff99 100%);
+    color: black;
+    
+}
+#logo-underline{
+    width: 90px;
+    /* border: 2px solid ; */
+    position: absolute;
+
+    margin-top: 5.85%;
+    margin-left: 5%;
+
+    padding: 2px  ;
+
+    background: linear-gradient(to right, #00cc99 0%, #99ff99 100%);
 }
 nav > ul {
   display: flex;

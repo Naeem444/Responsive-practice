@@ -2,15 +2,6 @@ body {
   background-color: white;
 }
 
-
-
-
-
-
-
-
-
-
 .flexible-container {
   display: flex;
   margin-bottom: 150px;
@@ -25,8 +16,77 @@ body {
 .init-half-headline {
   font-family: "Righteous", cursive;
 
-  font-size: 2.8em;
+  font-size: 2.7em;
   width: 100%;
+  position: relative;
+}
+
+/* CSS animation */
+.headline-animation {
+  /* added transparent color */
+  color: #00000000;
+}
+
+.headline-animation::before {
+  content: "Impacts";
+  position: absolute;
+  color: #339966;
+  animation: typing 7s linear infinite;
+}
+@keyframes typing {
+  0% {
+    content: "I|";
+  }
+  8% {
+    content: "Im|";
+  }
+  16% {
+    content: "Imp|";
+  }
+  28% {
+    content: "Impa|";
+  }
+  32% {
+    content: "Impac|";
+  }
+  40% {
+    content: "Imapct|";
+  }
+  48% {
+    content: "Impacts|";
+  }
+  48%,
+  72% {
+    content: "Impacts|";
+  }
+
+  76% {
+    content: "Impacts|";
+  }
+  80% {
+    content: "Impact|";
+  }
+  84% {
+    content: "Impac|";
+  }
+  88% {
+    content: "Impa|";
+  }
+  92% {
+    content: "Imp|";
+  }
+  95% {
+    content: "Im|";
+  }
+  97% {
+    content: "I|";
+  }
+  99% {
+    content: "|";
+  }
+  100% {
+    content: "|";
+  }
 }
 
 .main_image {
