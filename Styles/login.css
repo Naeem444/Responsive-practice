@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 10vh;
+}
+
+.login-form {
+  /* This margin will be applied to only login form; not on entire screen including nav */
+  margin-top: 25vh;
+
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid lightgray;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 100px;
+
+  border-radius: 10px;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+.login-form h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+}
+.login-form input {
+  font-size: 0.9em;
+
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 200px;
+
+  border-radius: 22px;
+  border: 1px solid lightgray;
+}
+.login-form label {
+  margin-top: 3vh;
+  margin-bottom: 1vh;
+
+  font-weight: 550;
+}
+
+.login-button {
+  font-size: 1em;
+  font-weight: 550;
+  color: black;
+
+  margin-top: 8vh;
+  padding: 10px 70px;
+  border: none;
+  border-radius: 22px;
+  background: linear-gradient(to right, #00cc99 0%, #99ff99 100%);
+}
+
+.login-social-media {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background: white;
+  border: 2px solid grey;
+}
+.icon {
+  margin-right: auto;
+}
+
+.fa-google {
+  margin-right: auto;
+}
+.login-social-media:hover {
+  background: #f2f2f2;
+}

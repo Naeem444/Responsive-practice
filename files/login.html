@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="/Styles/login.css" />
+    <link rel="stylesheet" href="/Styles/nav.css" />
+    <link rel="icon" href="/images/flameicon.png" />
+
+    <!-- Nav-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome script -->
+    <script
+      src="https://kit.fontawesome.com/6172fb531f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 id="text-logo" title="This website is made by Naeem">
+          Naeem <span id="logo-part-2">R.</span>
+        </h1>
+        <div id="logo-underline"></div>
+
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li>
+            <a href="#">Articles</a>
+            <ul class="dropdown">
+              <li><a href="#">Technology</a></li>
+              <li><a href="#">Productivity</a></li>
+              <li><a href="#">Deep Learning</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <a class="user-icon" href="/files/login.html"
+          ><i class="fas fa-user-circle"></i
+        ></a>
+      </nav>
+    </header>
+
+    <section class="login-container">
+      <form action="#" class="login-form">
+        <h1>Login</h1>
+        <label for="email">E-mail</label>
+        <input
+          type="email"
+          placeholder="Enter Your Email"
+          name="email"
+          id=""
+          class="user-email"
+          required
+        />
+
+        <label for="password">password</label>
+        <input
+          type="password"
+          placeholder="Enter Your password"
+          name="password"
+          id=""
+          class="user-password"
+          required
+        />
+
+        <button type="submit-login" class="login-button">Login</button>
+
+        <a class="login-social-media login-button" href="#">
+          <i class="fab fa-google"></i>
+
+          <span class="icon">Continue with google</span>
+        </a>
+      </form>
+    </section>
+  </body>
+</html>
